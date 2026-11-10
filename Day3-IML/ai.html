@@ -1,0 +1,74 @@
+<!-- Thu Oct 29 - Images, Media and Links -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IML</title>
+</head>
+<body>
+
+  <!-- My notes -->
+  <h1>Notes</h1>
+  <p>
+    " ./ " ➡️ current folder <br>
+    " ../ " ➡️ parent folder - back once <br>
+    " ../../ " ➡️ back twice
+  </p>
+  <p>
+    Boolean attributes - mentioning them is enough for them to just work when
+    the webpage is displayed. Examples include:
+  </p>
+  <ul>
+    <li>controls</li>
+    <li>autoplay</li>
+    <li>loop</li>
+  </ul>
+
+  <!-- Local Images and Medias -->
+  <h2>Local</h2>
+  <p>Here is an image with a caption:</p>
+  <figure>
+    <img src="imgs/OceanQuote.png" alt="A quote with a cloudy background" width="200">
+    <figcaption>Surah Al-Fath, Ayah 4</figcaption>
+  </figure>
+
+  <p>Here is a video:</p>
+  <video controls autoplay muted loop width="400" height="300">
+    <source src="vid/Robotaxi.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Online Images, Media and Links -->
+  <h2>Online</h2>
+  <p>An audio too!</p>
+  <!-- TODO: put a real audio file in an "audio" folder and match the name below -->
+  <audio controls>
+    <source src="audio/recitation.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+
+  <p>Enjoy this YouTube video!</p>
+  <iframe
+    width="400"
+    height="300"
+    src="https://www.youtube.com/embed/7aF0q7NfwfA?si=6X7Cgy8OcAN37emy"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen></iframe>
+
+  <p>Here is an online image with a caption:</p>
+  <figure>
+    <!-- Placeholder online image: swap in any image URL you like -->
+    <img src="https://picsum.photos/200" alt="A random photo loaded from the internet" width="200">
+    <figcaption>An image loaded from the internet</figcaption>
+  </figure>
+
+  <p>
+    And a link:
+    <a href="https://developer.mozilla.org/" target="_blank" rel="noopener noreferrer">MDN Web Docs</a>
+  </p>
+
+</body>
+</html>

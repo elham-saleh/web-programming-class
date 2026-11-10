@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Club Registeration Form</title>
+</head>
+<body>
+  <h1>Club Registration Form</h1>
+  <form action="/regiter" method="post">
+    <label for="fname" id="fname">Full name</label>
+    <input type="text" name="fname" id="fname" required>
+    <br>
+    <label for="phoneNum" id="phoneNum">Phone Number</label>
+    <input type="tel" name="phoneNum" id="phoneNum" required>
+    <br>
+    <label for="year" id="year">Year of Study: </label>
+    <input type="radio" name="year" id="1st" value="1st" required>
+    <label for="1st">1st Year</label>
+    <input type="radio" name="year" id="2nd" value="2nd" required>
+    <label for="2nd">2nd Year</label>
+    <input type="radio" name="year" id="3rd" value="3rd" required>
+    <label for="3rd">3rd Year</label>
+    <input type="radio" name="year" id="4th" value="4th" required>
+    <label for="4th"id="4th">4th year</label>
+    <br>
+    <label for="interests" id="interests">Interests</label> <br>
+    <input type="checkbox" name="1" id="1">Coding <br>
+    <input type="checkbox" name="2" id="2">Book Reading <br>
+    <input type="checkbox" name="3" id="3">Gaming <br>
+    <br>
+    <label for="email">Email</label>
+    <input type="email" required>
+    <br>
+    <label for="password" id="password">Password</label>
+    <input type="password" minlength="8" required>
+    <br>
+    <label for="dept">Department</label>
+    <select name="dept" id="dept" required >
+      <option value="CS">Computer Science</option>
+      <option value="BS">Business Administration</option>
+    </select>
+    <br>
+    <label for="reason"></label>
+    <textarea name="reason" id="reason" placeholder="Why join?"></textarea>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>

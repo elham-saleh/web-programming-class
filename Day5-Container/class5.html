@@ -1,0 +1,47 @@
+<!-- Class Practise -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <h1>This is a form</h1>
+  <form action="/register" method="post">
+    <label for="fname" required>First Name </label>
+    <input type="text" name="fname"> 
+    <br>
+    <label for="lname">Last Name </label>
+    <input type="text" name="lname">
+    <br>
+    <label for="gender">Gender </label>
+    <input type="Radio" name="gender">Male
+    <input type="Radio" name="gender">Female
+    <br>
+    <label for="age">Age </label>
+    <input type="number" name="age" min="18" max="100">
+    <br>
+    <label for="date">Date</label>
+    <input type="date" name="date">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email">
+    <br>
+    <label for="password">Password </label>
+    <input type="password" name="password">
+    <br>
+    <label for="course">Select a course</label>
+    <select name="course" id="course">
+      <option value="cosc23">Automata</option>
+      <option value="cosc123">WEB</option>
+      <option value="cosc456">OS</option>
+    </select>
+    <br>
+    <textarea name="interest" id="interest" placeholder="Write something"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+  <hr>
+  <p>PROGECT 1! Given today</p>
+</body>
+</html>
