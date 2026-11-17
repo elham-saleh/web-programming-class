@@ -1,0 +1,38 @@
+h1{
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  font-size: 36px;
+}
+/* Hover effect for anchor tags. : symbol shows pseudo-class */
+a:hover{
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+}
+
+/*Applies to paragraphs with class "para" */
+.para{
+  font-size: 20px;
+  color: red;
+  text-align: center;
+}
+
+/*:: symbol represents a pseudo-element */
+#unique-p2::before{
+  content: "This is a pseudo-element before the paragraph.";
+  display: block;
+  font-weight: bold;
+  margin-bottom: 1px;
+}
+
+/*Encompasses all elements within the content div of class "content" */
+.content{
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
