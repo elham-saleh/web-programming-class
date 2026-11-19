@@ -1,0 +1,38 @@
+/*Colors, Fonts and Text Styling*/
+
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exile&family=Zeyada&display=swap');
+
+h1{
+  color: rgba(0, 255, 179, 0.8);
+  background-color:white ;
+  border-radius: 10px;
+  padding: 100px;
+  text-align: center;
+  font-family: 'Exile', cursive;
+  font-size: 36px;
+}
+
+.para{
+  color: rgb(0, 255, 0, 0.8);
+  font-family: cursive;
+}
+
+#unique-p2{
+  color: rgb(255, 0, 0, 0.8);
+  font-family: 'Zeyada', cursive;
+}
+
+#contact-link{
+  Background-color: rgba(255, 0, 93, 0.8);
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#about-link{
+  
+}
